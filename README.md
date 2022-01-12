@@ -121,42 +121,42 @@ Bob   ---------------*-o-----------*-o-----------> "Summe = 8 "
 
 **Wordcloud**
 
-[[___]]
+    [[___]]
 
 **Sammlungen**
 
-[[___ ___]]
+    [[___ ___]]
 
 #### Vektoren
 
 **Single-Choice**
 
-[(1)] Option 1
-[(2)] Option 2
-[(3)] Option 3
+    [(1)] Option 1
+    [(2)] Option 2
+    [(3)] Option 3
 
 **Multiple-Choice**
 
-[[4]] Option 4
-[[5]] Option 5
-[[6]] Option 6
+    [[4]] Option 4
+    [[5]] Option 5
+    [[6]] Option 6
 
 #### Matrizen
 
 **Single-Choice**
 
-[(gut 1)(mittel 2)(schlecht 3)]
-[                             ] Option 1
-[                             ] Option 2
-[                             ] Option 3
+    [(gut 1)(mittel 2)(schlecht 3)]
+    [                             ] Option 1
+    [                             ] Option 2
+    [                             ] Option 3
 
 
 **Multiple-Choice**
 
-[[1 gut][2 mittel][3 schlecht]]
-[                             ] Option 1
-[                             ] Option 2
-[                             ] Option 3
+    [[1 gut][2 mittel][3 schlecht]]
+    [                             ] Option 1
+    [                             ] Option 2
+    [                             ] Option 3
 
 
 ### Quizze
@@ -165,14 +165,14 @@ Bob   ---------------*-o-----------*-o-----------> "Summe = 8 "
 
 What is $37 + 15$?
 
-[[52]]
-<script output="quiz:37+15">
-  if ("@input" == "52") {
-    true
-  } else {
-    "@input"
-  }
-</script>
+    [[52]]
+    <script output="quiz:37+15">
+      if ("@input" == "52") {
+        true
+      } else {
+        "@input"
+      }
+    </script>
 
 <script style="display: block">
 //   3(7)       (3)7
@@ -208,13 +208,13 @@ if ("@input(`quiz:37+15`)" == "412") {
 
 Man or woman is obvious, but you guess the remaining German grammatical genders?
 
-[[male (der<!-- class="notranslate"-->)]   (female [die<!-- class="notranslate"-->])   [neuter (das<!-- class="notranslate"-->)]]
-[    [X]           [ ]             [ ]     ]  Mann<!-- class="notranslate"--> - German for man
-[    ( )           (X)             ( )     ]  Frau<!-- class="notranslate"--> - German for woman
-[    [X]           [ ]             [ ]     ]  Junge<!-- class="notranslate"--> - German for boy
-[    ( )           ( )             (X)     ]  Mädchen<!-- class="notranslate"--> - German for girl
-[    [X]           [X]             [ ]     ]  Paprika<!-- class="notranslate"--> - German for bell pepper
-[    (X)           (X)             (X)     ]  Joghurt<!-- class="notranslate"--> - German for yogurt
+    [[male (der<!-- class="notranslate"-->)]   (female [die<!-- class="notranslate"-->])   [neuter (das<!-- class="notranslate"-->)]]
+    [    [X]           [ ]             [ ]     ]  Mann<!-- class="notranslate"--> - German for man
+    [    ( )           (X)             ( )     ]  Frau<!-- class="notranslate"--> - German for woman
+    [    [X]           [ ]             [ ]     ]  Junge<!-- class="notranslate"--> - German for boy
+    [    ( )           ( )             (X)     ]  Mädchen<!-- class="notranslate"--> - German for girl
+    [    [X]           [X]             [ ]     ]  Paprika<!-- class="notranslate"--> - German for bell pepper
+    [    (X)           (X)             (X)     ]  Joghurt<!-- class="notranslate"--> - German for yogurt
 
 ## Todo
 
